@@ -2,7 +2,7 @@
 
 This application has 2 types of flashcard generator constructors.  
 
-The BasicCard constructor creates a basic flashcard, which has 2 arguments, front and back.  The flashcard question is in the 'front' argument and the flashcard answer is in the 'back' argument.
+The BasicCard constructor creates a basic flashcard, which has 2 arguments, 'front' and 'back'.  The flashcard question is in the 'front' argument and the flashcard answer is in the 'back' argument.
 
 The ClozeCard constructor creates a cloze flashcard, which also has 2 arguments.  (A Cloze type flashcard shows a full sentence with part removed on the front, and the missing part of the sentence on the back.)  The arguments are 'text' and 'cloze' where 'text' is the full text of the sentence and 'cloze' is the part of the sentence that is missing and needs to be provided on the "back" of the flashcard.
 
